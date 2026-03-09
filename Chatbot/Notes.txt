@@ -1,0 +1,80 @@
+Git repo : kskvasan2007@gmail.com - Enterprise-ChatBot
+
+python 3.10.11
+	Add the 3.10.11 location to PATH in environmental variable
+	Select the 3.10.11 interpreter in visual studio code
+			View -> Command Palette -> select python interpreter -> python 3.10.11
+
+Environment 
+	python -m venv venv
+	venv\Scripts\activate
+	pip install --upgrade pip
+
+Requirements
+	pip install fastapi uvicorn
+	pip install sentence-transformers
+	pip install faiss-cpu
+	pip install pydantic
+	pip install python-multipart
+	pip install pdfplumber pymupdf
+	pip install bcrypt python-jose
+	pip install nltk spacy
+
+		test_lib.py
+			create a test_lib.py file to ensure that the libraries are installed successfully .
+
+SentenceTransformer model:
+	all-MiniLM-L6-v2(model)
+	run the below in cmd "python -i"-> then paste the code here to download and check the model.
+		from sentence_transformers import SentenceTransformer
+		print("Downloading and caching model...")
+		model = SentenceTransformer("all-MiniLM-L6-v2")
+		print("Model loaded successfully.")
+		print("Embedding test:", model.encode("Enterprise chatbot test").shape)
+
+LLM setup :
+	Download Ollama
+		Visual Studio Code
+			ollama --version
+			ollama pull llama3
+	
+		
+SMTP setup :
+	dmrp qwsm urfs fyqc
+		Enable Two-Factor Authentication in the dedicated gmail.
+	Search for "App Password" create a app password for app name "Gmail"
+	setup smtp_config and smtp_test.py file to ensure otp is sent successfully
+
+Profanity:
+	profanity_words.txt file is created 
+
+Folder structure :
+	chatbot/
+		├── app/
+			│   ├── main.py
+			│   ├── auth/
+			│   ├── nlp/
+			│   ├── docs/
+			│   ├── security/
+			│   └── utils/
+		├── data/
+		├── models/
+		├── requirements.txt
+		└── README.md
+
+Sample Documents:
+	Download sample documents
+			IT support
+			Employee Handbook
+			HR Policy
+
+Setup test
+	Run test to ensure everything runs
+
+.gitignore
+	Create .gitignore file , to prevent env , requirement files from being committed
+
+Freeze requirements 
+	Need to freeze requirements with "pip freeze > requirements.txt"
+
+

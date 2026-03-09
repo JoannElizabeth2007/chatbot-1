@@ -1,0 +1,2 @@
+curl -X GET http://127.0.0.1:8000/protected ^
+-H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBvcmcuY29tIiwiZXhwIjoxNzcwNDMxNDA0fQ.NIX_Di6p_KtC805wlp2Wq1re0UCuJ1uplatA8cZ4nUU" 
