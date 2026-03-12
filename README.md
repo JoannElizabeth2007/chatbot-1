@@ -1,5 +1,5 @@
-## Name: PRANAV K
-## REG NO: 212224040240
+## Name: JOANN ELIZABETH SAMUEL
+## REG NO: 212224040139
 #  Enterprise AI Chatbot  
 **A Secure, Document-Aware Intelligent Assistant for Organizations**
 
@@ -227,3 +227,4 @@ This project demonstrates a production-inspired enterprise AI chatbot combining 
   
 ## License
 This project is intended for educational and demonstration purposes.
+
